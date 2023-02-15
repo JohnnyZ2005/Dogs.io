@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+.main {
+    background-color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+/* styling for header section */ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    color: white;
+    font-size: 40px; 
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+    transition: all 2s ease; 
+}
+
+.header .logo span {
+    color: blue;
+    transition: all 2s ease;
+}
+
+.left-link ul {
+     display: flex;
+     gap: 10px;
+}
+
+li{ 
+    list-style: none; 
+    margin-right: 60px;
+}
+
+.left-link ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.left-link ul li a:hover{
+    color: blue;
+    transform: scale(1.2);
+    transition: ease-in-out .5s ;
+}
+
+/* style for hero section */
+.hero {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero-section-1 {
+    margin-left: 50px;
+}
+
+.hero-section-1 h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    height: 70px;
+}
+
+.hero-section-1 p {
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    height: 30px;
+}
+
+.button-1 {
+    background-color: blue;
+    font-size: 18px;
+    border-style: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 100px;
+    color: white;
+    margin-top: 30px;
+}
+.button-1:hover {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.image-1 {
+    width: 500px;
+}
