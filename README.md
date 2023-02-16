@@ -1,11 +1,11 @@
 # Dogs.io
 
-A website for the sales of dogs 
+First website created entirely with html and css,
+Also the first project from the foundation course of The odin Project. 
+Had a lot of fun creating this and also learnt new concepts.
 
-pictures gotten from www.shutterstock.com
-Second project from the odin project website 
 
-picture one by - https://www.shutterstock.com/g/chevanon
- 
-picture 3 by - https://www.shutterstock.com/g/chevanon
+Note:
+        pictures gotten from www.shutterstock.com
+
 
